@@ -163,6 +163,21 @@ const tributes = [
     text: "I remember how you would lovingly bring out goodies and chocolates from your wardrobe just for us. Thank you for taking care of us and for the love you showed in those little moments."
   },
   {
+    name: "Omo'ba Foli Ayayi",
+    relation: "Nephew",
+    text: "My beloved aunt was a source of endless love, kindness and wisdom. Her generosity knew no bounds, and her spirit was a beautiful reminder of the goodness that exists in the world. Adieu, my sweet aunt."
+  },
+  {
+    name: "Pastor Odette S. Makanjuola",
+    relation: "Niece",
+    text: "To my amazing Aunty and my mum’s look-alike, you embodied God's love. Your service as a Deaconess reflected your heart for others. 'Well done, good and faithful servant.' Good night!"
+  },
+  {
+    name: "Tutu and Kemi",
+    relation: "Niece",
+    text: "To us, you are Mummy Turton Street. We have treasured memories of growing up with your kids and were treated as your own. Thank you for the wonderful memories. Rest in perfect peace."
+  },
+  {
     name: "Mrs Cynthia K. Akinlawon",
     relation: "Cousin",
     text: "Sissie Funmilayo was a kind and very wise woman, a protector, a helper. Though there are no more tomorrows to share, the yesterdays remain forever in our memories."
@@ -173,9 +188,44 @@ const tributes = [
     text: "Sisi Funmilayo was a shining star. Even in her golden years, she danced with joy. She bid us farewell joining the last family meeting through Zoom, calling our names one by one. Sun re o."
   },
   {
+    name: "Michael Ajayi",
+    relation: "Family Member",
+    text: "I can never forget your hug and your beautiful smile, as well as your lovely food that always makes me happy. Till we meet again. May Your Soul Rest in Peace."
+  },
+  {
     name: "Sade Mokwenye",
     relation: "Family Member",
     text: "Mummy, your bond with my mum, Mama Sokunle, went far beyond Busy Bee Society—into true sisterhood. Thank you for the gap you bridged in our lives. Adieu, Mummy."
+  },
+  {
+    name: "Stella Effiwatt",
+    relation: "Family Member",
+    text: "Mommy was a true picture of motherhood. Thank you for living so well. I will miss you so much. Rest in Peace."
+  },
+  {
+    name: "Jadesola Adesuyi",
+    relation: "Family Member",
+    text: "Mama lived by the principle of honouring the Lord with her substance. She forsook her comfort for Kingdom good. May her sweet soul rest in perfect peace."
+  },
+  {
+    name: "Femi Obikoya",
+    relation: "Family Member",
+    text: "The great Mrs Ajayi. Iya oninu ire. She’s lovely and dearest to all who came into her life. We always love you, but God loves you more. Rest in peace."
+  },
+  {
+    name: "Kunbi Njoku",
+    relation: "Family Member",
+    text: "A true picture of motherhood and a shining example to us all. Rest in perfect peace, Mama, your legacy of strength and love lives on."
+  },
+  {
+    name: "Eva & Patrick",
+    relation: "Family Members",
+    text: "Mama rere. A good Mother. Abiyamo tooto. A true Mother. Ever gentle, graceful, peaceful and kind. May Mama's gentle soul rest in peace. Amen."
+  },
+  {
+    name: "Anny Eweka",
+    relation: "Family Member",
+    text: "Maman, whenever you come to Togo, you must come and see my mum, and you must never come empty-handed. Thank you for the 'Showers of Blessing' you shared with us."
   }
 ];
 
