@@ -41,7 +41,7 @@ export default function Cover() {
           className="space-y-2"
         >
           <p className="text-2xl md:text-3xl font-serif text-primary/90">
-            1933 — January 9, 2026
+            January 5, 1934 — January 9, 2026
           </p>
           <p className="text-lg text-muted-foreground italic">
             "Sleep well in the Lord that you loved so much."

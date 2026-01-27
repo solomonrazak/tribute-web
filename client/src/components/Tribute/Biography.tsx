@@ -40,7 +40,7 @@ export default function Biography() {
              <h3 className="text-3xl font-serif text-primary">A Life of Grace</h3>
              <p className="text-lg leading-relaxed text-muted-foreground">
                Deaconess Henrietta Oluwafunmilayo Ajayi was a beacon of faith and love. 
-               Born in 1933, she lived a life dedicated to God and her family. 
+               Born on January 5, 1934, she lived a life dedicated to God and her family. 
                As a devoted member of Wesley Methodist Church Ikoyi, she served with humility and grace.
              </p>
              <p className="text-lg leading-relaxed text-muted-foreground">
