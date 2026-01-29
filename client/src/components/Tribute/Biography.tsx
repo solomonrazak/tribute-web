@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Biography() {
   return (
-    <section className="py-20 px-4 md:px-8 bg-white/50 relative overflow-hidden">
+    <section className="py-20 px-4 md:px-8 bg-white/50 relative">
       <div className="max-w-4xl mx-auto space-y-12 relative z-10">
         <motion.div 
           initial={{ opacity: 0 }}
@@ -62,6 +62,13 @@ export default function Biography() {
           </motion.div>
         </div>
       </div>
+      <button
+  onClick={() => window.print()}
+  className="fixed top-6 right-6 z-50 bg-primary text-primary-foreground px-4 py-2 rounded shadow-lg print:hidden"
+>
+  Download PDF
+</button>
+
     </section>
   );
 }
