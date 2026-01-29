@@ -62,12 +62,12 @@ export default function Biography() {
           </motion.div>
         </div>
       </div>
-      <button
+      {/* <button
   onClick={() => window.print()}
   className="fixed top-6 right-6 z-50 bg-primary text-primary-foreground px-4 py-2 rounded shadow-lg print:hidden"
 >
   Download PDF
-</button>
+</button> */}
 
     </section>
   );
