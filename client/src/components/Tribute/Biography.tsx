@@ -49,17 +49,29 @@ export default function Biography() {
              </p>
           </motion.div>
           
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            className="relative aspect-[4/5] bg-muted rounded-lg overflow-hidden shadow-xl rotate-3 hover:rotate-0 transition-transform duration-500"
-          >
-            {/* Placeholder for portrait */}
-            <div className="absolute inset-0 bg-primary/5 flex items-center justify-center text-primary/20">
-               <span className="font-serif italic text-2xl">Portrait</span>
-            </div>
-             <img src="/memorial-cover.png" className="w-full h-full object-cover opacity-80" alt="Memorial Portrait" />
-          </motion.div>
+         <motion.div
+  initial={{ opacity: 0, scale: 0.9 }}
+  whileInView={{ opacity: 1, scale: 1 }}
+  className="relative aspect-[4/5] bg-muted rounded-lg overflow-hidden shadow-xl rotate-3 hover:rotate-0 transition-transform duration-500"
+>
+  {/* Portrait (below) */}
+  <div className="relative z-10 flex items-center justify-center h-full p-6">
+    <img
+      src="/deconness.png"
+      alt="Memorial Portrait"
+      className="max-h-full max-w-full object-contain rounded-md shadow-2xl -translate-y-6"
+    />
+  </div>
+
+  {/* Cover ABOVE portrait, but blended */}
+  <img
+    src="/memorial-cover.png"
+    alt="Memorial Cover"
+    className="absolute inset-0 z-20 w-full h-full object-cover mix-blend-multiply opacity-60"
+  />
+</motion.div>
+
+
         </div>
       </div>
       {/* <button

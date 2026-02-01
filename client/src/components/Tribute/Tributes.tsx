@@ -1,5 +1,6 @@
-import { motion } from "framer-motion";
+import { motion, AnimatePresence  } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { useState } from "react";
 
 const tributes = [
   {
@@ -230,43 +231,91 @@ const tributes = [
 ];
 
 export default function Tributes() {
+  // track which tribute is open (null = all closed)
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const toggleTribute = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
   return (
     <section className="py-20 px-4 md:px-8 max-w-7xl mx-auto" id="tributes">
+      {/* Header */}
       <div className="text-center mb-16 space-y-4">
-        <h2 className="text-4xl md:text-5xl font-serif text-primary">Tributes</h2>
+        <h2 className="text-4xl md:text-5xl font-serif text-primary">
+          Tributes
+        </h2>
         <div className="w-24 h-1 bg-accent mx-auto" />
         <p className="text-muted-foreground font-serif italic max-w-2xl mx-auto">
           "The memory of the righteous is blessed." — Proverbs 10:7
         </p>
       </div>
 
+      {/* Masonry layout */}
       <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
-        {tributes.map((tribute, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: index * 0.05 }}
-            className="break-inside-avoid"
-          >
-            <Card className="bg-card/50 backdrop-blur-sm border-accent/20 hover:border-accent/50 transition-colors duration-300">
-              <CardHeader className="pb-3">
-                <CardTitle className="font-serif text-xl text-primary">{tribute.name}</CardTitle>
-                <p className="text-sm text-accent-foreground font-medium uppercase tracking-wider">{tribute.relation}</p>
-              </CardHeader>
-              <CardContent>
-                <div className="relative">
-                  <span className="absolute -top-2 -left-2 text-4xl text-accent/20 font-serif leading-none">“</span>
-                  <p className="text-muted-foreground leading-relaxed relative z-10 px-2">
-                    {tribute.text}
+        {tributes.map((tribute, index) => {
+          const isOpen = openIndex === index;
+
+          return (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.03 }}
+              className="break-inside-avoid"
+            >
+              <Card
+                onClick={() => toggleTribute(index)}
+                className="cursor-pointer bg-card/50 backdrop-blur-sm border-accent/20 hover:border-accent/50 transition-colors duration-300"
+              >
+                {/* COLLAPSED HEADER (always visible) */}
+                <CardHeader className="pb-3">
+                  <CardTitle className="font-serif text-xl text-primary">
+                    {tribute.name}
+                  </CardTitle>
+                  <p className="text-sm text-accent-foreground font-medium uppercase tracking-wider">
+                    {tribute.relation}
                   </p>
-                  <span className="absolute -bottom-4 right-0 text-4xl text-accent/20 font-serif leading-none">”</span>
-                </div>
-              </CardContent>
-            </Card>
-          </motion.div>
-        ))}
+
+                  <p className="text-xs italic text-muted-foreground mt-1">
+                    {isOpen ? "Tap to close" : "Tap to read tribute"}
+                  </p>
+                </CardHeader>
+
+                {/* EXPANDABLE CONTENT */}
+                <AnimatePresence initial={false}>
+                  {isOpen && (
+                    <motion.div
+                      key="content"
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.35, ease: "easeInOut" }}
+                      className="overflow-hidden"
+                    >
+                      <CardContent>
+                        <div className="relative pt-4">
+                          <span className="absolute -top-2 -left-2 text-4xl text-accent/20 font-serif leading-none">
+                            “
+                          </span>
+
+                          <p className="text-muted-foreground leading-relaxed relative z-10 px-2">
+                            {tribute.text}
+                          </p>
+
+                          <span className="absolute -bottom-4 right-0 text-4xl text-accent/20 font-serif leading-none">
+                            ”
+                          </span>
+                        </div>
+                      </CardContent>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </Card>
+            </motion.div>
+          );
+        })}
       </div>
     </section>
   );
