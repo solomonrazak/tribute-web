@@ -31,7 +31,7 @@ const tributes = [
   {
     name: "Simisola Osomo",
     relation: "Daughter",
-    text: "Mum, you have fought a good fight. You have finished the race. A crown of righteousness awaits you in Heaven. I am privileged to be your daughter. Sun re o. Love Forever."
+    text: "Mum, you have fought a good fight. You have finished the race. A crown of righteousness awaits you in Heaven. I am privileged to be your daughter. Sun re o. Love Forever Simisola."
   },
   {
     name: "Akin Ajayi",
@@ -41,7 +41,7 @@ const tributes = [
   },
   {
     name: "Pastor Yilu",
-    relation: "Son-in-Love",
+    relation: "Son-in-Law",
     text: "My Mother-in-Love... She is a Disciplinarian with the ability to impart discipline to others. She is very Thorough and Detailed—if you introduce her as Henrietta Olufunmilayo AJAYI, she will add - Nee ALAJA BROWNE. A true Giver.",
     desc: "Mother-in-love, my mother-in-love (not in law), this is a sincere tribute from my heart to a disciplinarian who was disciplined and had the ability and capacity to impart discipline to others, very thorough and detailed such that if you introduced her as Henrietta Olufunmilayo Ajayi she would add 'née Alaja Browne,' a giver who ensured everyone who visited her left with something—either biscuits or Tom Tom—and so we say we love you Grandma and we will miss you."
   },
@@ -60,7 +60,8 @@ const tributes = [
   {
     name: "Debbie Ajayi",
     relation: "Daughter-in-love",
-    text: "Gmama was an angel. When I hear my friends complain about their mother-in-law, I wonder what I did for God to bless me with a Blessing like her. I will miss our dancing and singing together. Rest in the bosom of Christ."
+    text: "Gmama was an angel. When I hear my friends complain about their mother-in-law, I wonder what I did for God to bless me with a Blessing like her. I will miss our dancing and singing together. Rest in the bosom of Christ.",
+    desc: "Gmama has I fondly called her was an angel. She was always there to make sure everyone was fine. When I hear my friends complain about their mother in law, I wonder what I did for God to bless me with a Blessing like her Gmama, I will miss our dancing and singing together. Please rest in the bossom of Christ Jesus Debbie Ajayi Daughter in love "
   },
   {
     name: "Ademola Ajibola",
@@ -75,13 +76,20 @@ const tributes = [
     desc: "A Warm Welcome, Grandmummy as you were fondly called by all, I remember the first time we met when I was introduced as your future 'grandson-in-law,' if there is anything like that, and how you were so welcoming, so warm, immediately making me feel loved and at home, that caring and loving nature being the very core of your being and shining through the lives of everyone blessed to meet you or to call you mummy or grandmummy, loving you deeply while trusting that God loves you even more and called you home, even as we wished for many more years together, resting now in the bosom of our Lord until we meet to part no more."
   },
   {
+    name: "Alberto Boateng",
+    relation: "Grandson-in-law",
+    text: "I vividly remember my first encounter with you, Grandma—a moment etched forever in my heart. You greeted me with that infectious smile, the kind that lit up the room like sunshine breaking through clouds after a storm. It wasn't just a smile; it was a warm embrace from your eyes, pulling me into your world of effortless joy and boundless kindness. Your lovely personality shone through instantly: gentle yet vibrant, always ready with a hug, a laugh, or a story that made the ordinary feel magical.",
+    desc: "I vividly remember my first encounter with you, Grandma—a moment etched forever in my heart. You greeted me with that infectious smile, the kind that lit up the room like sunshine breaking through clouds after a storm. It wasn't just a smile; it was a warm embrace from your eyes, pulling me into your world of effortless joy and boundless kindness. Your lovely personality shone through instantly: gentle yet vibrant, always ready with a hug, a laugh, or a story that made the ordinary feel magical.Your 92 years were a tapestry of devotion: to family, to faith, to the simple joys of life. You watched grandchildren grow, great-grandchildren play, and through it all, your laughter rang out like music. Even as time softened your steps, that infectious smile never faded, a reminder of the unbreakable light within you. Grandma, your light will be sorely missed in the quiet moments, the family gatherings, the everyday wonders you made brighter. But we carry it forward—in our smiles, our kindness, our stories of you. Rest well, dear one, in the peace you so richly deserve. Until we meet again, know you've left us forever changed, forever grateful. "
+  },
+  {
     name: "Kristin Wilson",
     relation: "Granddaughter",
-    text: "My mother is the best human being I know... and I realize I didn't need to be told what shaped her. I could see it in my grandmother. She used to call me every week just to pray with me. Her love was 'love, applied'."
+    text: "My mother is the best human being I know... and I realize I didn't need to be told what shaped her. I could see it in my grandmother. She used to call me every week just to pray with me. Her love was 'love, applied'.",
+    desc: "People often ask how come I chose to move to Nigeria as an adult, having never grown up here. The truth is, I didn't feel the distance from my Nigerian roots the way you might expect. My grandmother was present to me through my mother, in her voice, her patience, her faith, the way she moved through the world. My mother is the best human being I know. I don't say that lightly or sentimentally. I say it as someone who has watched her navigate impossible things with grace, who has seen her choose kindness when bitterness would have been easier, who has witnessed her faith hold steady in seasons that would have broken others. And when I ask myself where that comes from, I realise I didn't need to be told what shaped my mother. I could see it. That was my way into loving my grandmother. Not just the sweets and the treats, though there were plenty of those. But the recognition that the woman who made me was herself made by someone, and that someone was still alive, still calling, still praying, still giving. So, when I try to articulate the weight of this loss, I find myself thinking less about my own grief and more about hers. I had the gift of my grandmother in visits, in phone calls, in the stories my mother told. But my mother had her whole life. She had the 4am prayers, the daily presence, the quiet instruction of watching a woman live out her faith in ordinary moments. That kind of loss is not something I can fully comprehend. I can only stand beside it. What I can speak to is what I observed. My grandmother never asked for anything. This is not a small thing. Those of us in the diaspora know the weight of expectation that follows perceived success, the calls, the requests, the black tax. My grandmother never added to that burden. She only gave. Her time, her prayers, her attention, whatever she had. She offered without keeping score. She used to call me every week, even when I was well into adulthood and busy with my own life. If I missed her call, she would try again the next day. And the next. And the next, until she finally reached me. And when she did, it was never to ask for anything. Just to pray with me. Just to bless me. I am ashamed to admit I did not always receive those calls with the reverence they deserved. I was distracted, rushing, always assuming there would be another call, another chance. I know better now. The first serious essay I ever wrote, the one that made me realise I could think on the page, was about her. About the way she wove together prayer and egbogi, faith and tradition, without ever seeing them as opposites. She would pray over us and then reach for the herbs. She trusted God and she trusted the knowledge her own mother had passed to her. There was no contradiction for her. It was all one thing: love, applied. That same spirit was there in the moi moi, chin chin and even the ogun jedi jedi that greeted us on any visit to Lagos. She delighted in feeding us, in watching us enjoy what she had prepared or chosen. Her love was always arriving in some form, a snack, a prayer, a phone call that wouldn't give up. She taught me something I have carried into my own life: that faith does not require you to abandon where you come from. That it does not mean severing yourself from your culture, your people, your roots. She held it all, Christ and community, devotion and identity, and she made it look effortless. It was not effortless, I am sure. But she made it look that way, which is its own kind of grace. Grandmummy, thank you. I should have answered more of your calls. I should have stayed on the line longer. "
   },
   {
     name: "George Wilson",
-    relation: "Grandson",
+    relation: "Granddaughter",
     text: "Grandmummy, you lived a long and beautiful life. I'll miss you secretly sharing sweets with me, no matter how old I get. I know you are watching over us and still sharing your love with us. I love you."
   },
   {
@@ -123,7 +131,8 @@ const tributes = [
   {
     name: "Taiwo Oloruntoba",
     relation: "Grandchild",
-    text: "From that day I came to your house in Olorunsogo, you accepted me as one of your Children. You were the epitome of a godly mother. You died a righteous woman with your children surrounding your table."
+    text: "From that day I came to your house in Olorunsogo, you accepted me as one of your Children. You were the epitome of a godly mother. You died a righteous woman with your children surrounding your table.",
+    desc: "Grandmummy, grandmummy grandmummy.... as I used to sing. From that  day I came to your house in Olorunsogo in Somolu, you just accepted me as one of your Children. You were an epitome of a godly mother and a true representative of Christ.You discipline with care and correct in love. Giving to you was a way of life.You always have something to give. Your personal devotional and discipline life was a big challenge to me.I saw in you scriptures fulfilled, especially in your last days.You died a righteous woman with your children and grandchildren surrounded your table while singing.You were able to sing your favourite hymn off hand from beginning to the end on your last birthday. Thank you for your godly and moral impact in my life and that of Blessing. She missed your waking up 4.am to put on water heater.Thank you for showing us what a godly mother is. Sleep on mom."
   },
   {
     name: "Sir Shino Yilu",
@@ -175,8 +184,9 @@ const tributes = [
   },
   {
     name: "Bola Hollist",
-    relation: "Family Friend",
-    text: "Mummy Ajayi was my second mother. I remember vividly moving freely between No. 5 and No. 8 Turton Street. Her purposeful, determined stride was unmatched. May the Lord grant her eternal rest."
+    relation: "Adoptive Daughter",
+    text: "Mummy Ajayi was my second mother. I remember vividly moving freely between No. 5 and No. 8 Turton Street. Her purposeful, determined stride was unmatched. May the Lord grant her eternal rest.",
+    desc: "Mummy Ajayi was my second mother in every sense of the word. I call her “Mummy Ajayi” only to distinguish her from my biological mother, Mummy Hollist—not because there was ever any difference in love, care, discipline, or authority. I remember vividly how we moved freely between No. 5 and No. 8 Turton Street, never truly distinguishing one home from the other. The lessons were the same, the standards were the same, and the scolding—when it came—was equally thorough. There was nowhere to hide, and in hindsight, that consistency, structure, and shared parenting were gifts that shaped us all. I also remember how we would have to run to catch up—or keep up—with her whenever she set off down the road, usually on her way to church. That purposeful, determined stride was unmatched. I’m not sure any of us ever quite caught up with her—either in pace or in the example she set. During one of my last visits to see her, she insisted that I be given biscuits to keep my mouth occupied. Even when I said I didn’t want to eat them at that moment, she made sure I took them home to enjoy later. In that simple gesture was a powerful reminder of her caring, nurturing nature—always thinking ahead, always making sure someone was provided for. These are memories I will cherish always. Mummy Ajayi’s presence, discipline, warmth, and quiet strength shaped me in ways words can hardly express. I am deeply grateful to have known her not only as a remarkable woman, but as a mother in my life. May the Lord grant her eternal rest and receive her soul in perfect peace. I take comfort in knowing she is now reunited with Mummy Hollist—together again in God’s presence. May God comfort and strengthen all of us who mourn her, and may her gentle spirit continue to live on in our hearts. 'The Lord bless thee, and keep thee. The Lord make His face shine upon thee, and be gracious unto thee: The Lord lift up His countenance upon thee, and give thee peace.'Numbers 6:24–26 (KJV)"
   },
   {
     name: "Funke George",
@@ -221,49 +231,49 @@ const tributes = [
   },
   {
     name: "Michael Ajayi",
-    relation: "Family Member",
+    relation: "Family Friend",
     text: "I can never forget your hug and your beautiful smile, as well as your lovely food that always makes me happy. Till we meet again. May Your Soul Rest in Peace.",
     desc: "Till we meet again. You will be missed. The last time I saw you was in 1999 when I came home for my dad's funeral. I remembered when my dad would visit his brother, Uncle Oseni. I can never forget your hug and your beautiful smile, as well as your lovely food that always makes me happy. I pray for your children's strength and comfort to see this through. Till we meet again. May Your Soul Rest in Peace."
   },
   {
     name: "Sade Mokwenye",
-    relation: "Family Member",
+    relation: "Family Friend",
     text: "Mummy, your bond with my mum, Mama Sokunle, went far beyond Busy Bee Society—into true sisterhood. Thank you for the gap you bridged in our lives. Adieu, Mummy.",
     desc: "A Testament to Devotion Mummy, your life and passing are a testament to your devotion to God and your service to mankind. Growing up, your name was ever-present in my home. You and my mum, Mama Sokunle, were members of Busy Bee Society at Wesley Church, Ikoyi, but your bond went far beyond that—into true sisterhood. My childhood story would be incomplete without your impact. My days of sleepovers at your home on Turton Street, picnics at Tarkwa Bay Beach with your children—where I was treated as one of your own—and holidays spent with your family were truly joyful. Time in your company was always special. You even ensured I sat for my entrance examinations when Mama was unavailable. Mummy, your love and care for Mama cannot be measured. You continually visited her in her old age, regardless of where she lived, and you ensured that any newly posted clergy visited her as well. E soju, e sehin, Mummy. You took a special interest in all my siblings. You held our hands and became a true big sister to my late sister, Chief Mrs G T Wilkey, indeed. Mummy, I cannot thank you enough for the gap you bridged in our lives. We are grateful to God for a life well spent. Adieu, Mummy. May God keep you in His loving arms until we meet again, to part no more."
   },
   {
     name: "Stella Effiwatt",
-    relation: "Family Member",
+    relation: "Family Friend",
     text: "Mommy was a true picture of motherhood. Thank you for living so well. I will miss you so much. Rest in Peace.",
     desc: "I Chose You as My Mom — I feel so sad about Mom's passing; she was such a special person, and I will always cherish the memories of her warmth and hugs; she had a beautiful way of making everyone feel seen and loved; Mommy was a true picture of motherhood, and I chose you as my mom; I saw your sacrifice and respect for all, which you also impacted on Ronke and Yele; Mommy, you lived a good and humble life worthy of emulation, a life dedicated to service and loving God; thank you for living so well, I will miss you so much. Rest in peace."
   },
   {
     name: "Jadesola Adesuyi",
-    relation: "Family Member",
+    relation: "Family Friend",
     text: "Mama lived by the principle of honouring the Lord with her substance. She forsook her comfort for Kingdom good. May her sweet soul rest in perfect peace.",
     desc: "Honour the Lord. Adieu Mama! Proverbs 3:9–10: 'Honour the Lord with thy substance, and with the first fruits of all thine increase: so shall thy barns be filled with plenty, and thy presses shall burst out with new wine.' Mama (Mummy Ronke) lived by this principle; she taught her children to build first for God, forsook her comfort for Kingdom good, and instilled the value of service in God's vineyard. We rest assured she is in a good place, having lived a fulfilled and happy life. May her sweet soul rest in perfect peace. Amen. Sun re, Mama rere."
   },
   {
     name: "Femi Obikoya",
-    relation: "Family Member",
+    relation: "Family Friend",
     text: "The great Mrs Ajayi. Iya oninu ire. She's lovely and dearest to all who came into her life. We always love you, but God loves you more. Rest in peace.",
     desc: "Iya Oninu Ire. The great Mrs Ajayi. Iya oninu ire. She's lovely and dearest to all who came into her life. We always love you, but God loves you more. May your soul continue to rest in the bosom of the Lord. Amen."
   },
   {
     name: "Kunbi Njoku",
-    relation: "Family Member",
+    relation: "Family Friend",
     text: "A true picture of motherhood and a shining example to us all. Rest in perfect peace, Mama, your legacy of strength and love lives on.",
     desc: "A True Picture of Motherhood. My heart is heavy with the loss of Mama, but I am grateful for the beautiful life she lived as a loving and caring mother to all her children. To Ronke, Bola, sister, yele and all Mama's children, I commiserate with you all and join you in celebrating her life. A true picture of motherhood and a shining example to us all. Rest in perfect peace, Mama, your legacy of strength and love, above all, service to Almighty God lives on. Amen."
   },
   {
     name: "Eva & Patrick",
-    relation: "Family Members",
+    relation: "Family Friends",
     text: "Mama rere. A good Mother. Abiyamo tooto. A true Mother. Ever gentle, graceful, peaceful and kind. Very Caring. May Mama's gentle soul rest in peace. Amen.",
     desc: "Mama rere. A good Mother. Abiyamo tooto. A true Mother. Ever gentle, graceful, peaceful and kind. Very caring. Eva and I are with you, Ronke, your siblings, children and in-laws. May Mama's gentle soul and the souls of all the faithful departed through the mercy of God rest in peace. Amen."
   },
   {
     name: "Anny Eweka",
-    relation: "Family Member",
+    relation: "Family Friend",
     text: "Maman, whenever you come to Togo, you must come and see my mum, and you must never come empty-handed. Thank you for the 'Showers of Blessing' you shared with us.",
     desc: "Showers of Blessing — Maman, whenever you come to Togo, you must come and see my mum and never come empty-handed; when I told her that you've passed, she remembered this song you once sang together: 'There shall be showers of blessing, this is the promise of love; there shall be seasons refreshing, sent from the Saviour above… Showers of blessing we need; mercy-drops round us are falling, but for the showers we plead… if we but trust and obey, there shall be seasons refreshing if we let God have His way.' Author: Daniel Webster Whittle (1840–1901); Composer: James McGranahan (1840–1907). Thank you."
   }
@@ -310,11 +320,11 @@ export default function Tributes() {
             >
               <Card
                 onClick={() => toggleTribute(index)}
-                className={`bg-card/50 backdrop-blur-sm border-accent/20 transition-colors duration-300 ${
+                className={`bg-card/50 backdrop-blur-sm border-accent/20 transition-all duration-300 ${
                   hasDesc
-                    ? "cursor-pointer hover:border-accent/50"
+                    ? "cursor-pointer hover:border-accent/50 hover:shadow-lg"
                     : "cursor-default"
-                }`}
+                } ${isOpen ? "border-accent/60" : ""}`}
               >
                 {/* HEADER */}
                 <CardHeader className="pb-3">
@@ -326,8 +336,8 @@ export default function Tributes() {
                   </p>
 
                   {hasDesc && (
-                    <p className="text-xs italic text-muted-foreground mt-1">
-                      {isOpen ? "Tap to close" : "Tap to read full tribute"}
+                    <p className="text-xs italic text-muted-foreground mt-1 flex items-center gap-2">
+                      <span>{isOpen ? "Tap to close" : "Tap to read full tribute"}</span>
                     </p>
                   )}
                 </CardHeader>
@@ -340,22 +350,60 @@ export default function Tributes() {
                     </span>
 
                     <AnimatePresence mode="wait">
-                      <motion.p
+                      <motion.div
                         key={isOpen ? "desc" : "text"}
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                        transition={{ duration: 0.25 }}
-                        className="text-muted-foreground leading-relaxed relative z-10 px-2"
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: "auto" }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.3, ease: "easeInOut" }}
+                        className="relative z-10 px-2 overflow-hidden"
                       >
-                        {isOpen && tribute.desc ? tribute.desc : tribute.text}
-                      </motion.p>
+                        {isOpen && tribute.desc ? (
+                          // Extended version - split into paragraphs
+                          <div className="space-y-4">
+                            {tribute.desc.split(/(?<=[.!?])\s+(?=[A-Z])/).map((paragraph, i) => (
+                              <p key={i} className="text-muted-foreground leading-relaxed">
+                                {paragraph}
+                              </p>
+                            ))}
+                          </div>
+                        ) : (
+                          // Short version
+                          <p className="text-muted-foreground leading-relaxed">
+                            {tribute.text}
+                          </p>
+                        )}
+                      </motion.div>
                     </AnimatePresence>
 
                     <span className="absolute -bottom-4 right-0 text-4xl text-accent/20 font-serif leading-none">
                       &rdquo;
                     </span>
                   </div>
+
+                  {/* Expand/Collapse indicator */}
+                  {hasDesc && (
+                    <div className="flex justify-center mt-4 pt-3 border-t border-accent/10">
+                      <motion.div
+                        animate={{ rotate: isOpen ? 180 : 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="text-accent/60"
+                      >
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <polyline points="6 9 10 13 14 9" />
+                        </svg>
+                      </motion.div>
+                    </div>
+                  )}
                 </CardContent>
               </Card>
             </motion.div>
