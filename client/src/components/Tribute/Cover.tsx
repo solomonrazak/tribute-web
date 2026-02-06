@@ -1,6 +1,47 @@
+
 import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 
 export default function Cover() {
+  const [activeSection, setActiveSection] = useState("biography");
+
+  // Smooth scroll to section
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+      setActiveSection(sectionId);
+    }
+  };
+
+  // Optional: Update active section based on scroll position
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ["biography", "tributes", "memory-wall"];
+      const scrollPosition = window.scrollY + 200;
+
+      for (const sectionId of sections) {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          const { offsetTop, offsetHeight } = element;
+          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+            setActiveSection(sectionId);
+            break;
+          }
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const navItems = [
+    { id: "biography", label: "Biography" },
+    { id: "tributes", label: "Tributes" },
+    { id: "memory-wall", label: "Memory Wall" },
+  ];
+
   return (
     <div className="relative min-h-[100vh] print:min-h-auto w-full flex flex-col items-center justify-center text-center overflow-hidden">
 
@@ -12,12 +53,46 @@ export default function Cover() {
         <div className="absolute inset-0 bg-background/30 backdrop-blur-[2px]" />
       </div>
 
+      {/* Sticky Navigation */}
+      <motion.nav
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1.2, duration: 0.6 }}
+        className="fixed top-4 md:top-6 lg:top-8 left-1/2 -translate-x-1/2 z-50 print:hidden w-[calc(100%-5rem)] md:w-auto max-w-2xl"
+      >
+        <div className="bg-background/40 backdrop-blur-md border border-accent/20 rounded-full px-2 py-2 shadow-lg">
+          <div className="flex gap-1">
+            {navItems.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className={`relative flex-1 md:flex-none px-3 md:px-6 py-2 rounded-full text-[11px] sm:text-[13px] md:text-sm font-semibold transition-all duration-300 whitespace-nowrap ${
+                  activeSection === item.id
+                    ? "text-primary"
+                    : "text-muted-foreground hover:text-primary/70"
+                }`}
+              >
+                {/* Active indicator */}
+                {activeSection === item.id && (
+                  <motion.div
+                    layoutId="activeSection"
+                    className="absolute inset-0 bg-accent/20 rounded-full"
+                    transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                  />
+                )}
+                <span className="relative z-10">{item.label}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      </motion.nav>
+
       <div className="relative z-10 p-8 max-w-4xl mx-auto space-y-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="space-y-4"
+          className="space-y-4 mt-[-80px] md:mt-14"
         >
           <p className="text-xl md:text-2xl tracking-widest uppercase text-primary/80 font-serif">
             Celebration of Life
