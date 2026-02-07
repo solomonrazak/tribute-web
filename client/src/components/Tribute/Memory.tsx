@@ -5,7 +5,7 @@ export default function Memory() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   // Generate image paths: 1-9 are .png, 10-99 are .jpg
-  const images = Array.from({ length: 99 }, (_, i) => {
+  const images = Array.from({ length: 100 }, (_, i) => {
     const num = i + 1;
     const extension = num <= 9 ? 'png' : 'jpg';
     return `/images/${num}.${extension}`;

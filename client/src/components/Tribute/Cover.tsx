@@ -66,7 +66,7 @@ export default function Cover() {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`relative flex-1 md:flex-none px-3 md:px-6 py-2 rounded-full text-[11px] sm:text-[13px] md:text-sm font-semibold transition-all duration-300 whitespace-nowrap ${
+                className={`relative flex-1 md:flex-none px-3 md:px-6 py-2 rounded-full text-[13px] sm:text-[13px] md:text-sm font-semibold transition-all duration-300 whitespace-nowrap ${
                   activeSection === item.id
                     ? "text-primary"
                     : "text-muted-foreground hover:text-primary/70"
